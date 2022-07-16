@@ -5,10 +5,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { BoxModule } from './box/box.module';
 
 @Module({
-  imports: [
-    MongooseModule.forRoot(process.env.MONGO_URL),
-    BoxModule
-  ],
+  imports: [MongooseModule.forRoot(process.env.MONGO_URL), BoxModule],
   controllers: [AppController],
   providers: [AppService],
 })
