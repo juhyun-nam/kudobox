@@ -2,7 +2,7 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { Model } from 'mongoose';
 import { getModelToken } from '@nestjs/mongoose';
 import { BoxService } from './box.service';
-import { Box } from './schemas/box.schema';
+import { Box } from './box.schema';
 
 describe('BoxService', () => {
   let service: BoxService;

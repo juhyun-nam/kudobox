@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { BoxService } from './box.service';
-import { Box, BoxSchema, Card, CardSchema } from './schemas/box.schema';
+import { Box, BoxSchema, Card, CardSchema } from './box.schema';
 import { BoxController } from './box.controller';
 
 @Module({
